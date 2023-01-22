@@ -16,9 +16,9 @@ function App() {
   return (
     <div className="App">
       <UserAuthContextProvider>
-        <BrowserRouter basename="streetwear-bc">
+        <BrowserRouter basename="/streetwear-bc">
           <Routes>
-            <Route path="/" element={<LoginPage />} >
+            <Route exact path="/streetwear-bc" element={<LoginPage />} >
               <Route index element={<LoginForm />} />
               <Route path="signup" element={<SignUpForm />} />
             </Route>
