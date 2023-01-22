@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <UserAuthContextProvider>
-        <Routes>
+        <Routes basename={window.location.pathname || ''}>
           <Route path="/" element={<LoginPage />} >
             <Route index element={<LoginForm />} />
             <Route path="signup" element={<SignUpForm />} />
