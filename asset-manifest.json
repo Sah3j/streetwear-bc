@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/streetwear-bc/static/css/main.a5f5db99.css",
-    "main.js": "/streetwear-bc/static/js/main.16b6a971.js",
+    "main.js": "/streetwear-bc/static/js/main.6b0fefea.js",
     "static/js/787.373f3d70.chunk.js": "/streetwear-bc/static/js/787.373f3d70.chunk.js",
     "static/media/login-page-pic.jpeg": "/streetwear-bc/static/media/login-page-pic.a9dd40fa40d6f7d46ebc.jpeg",
     "index.html": "/streetwear-bc/index.html",
     "main.a5f5db99.css.map": "/streetwear-bc/static/css/main.a5f5db99.css.map",
-    "main.16b6a971.js.map": "/streetwear-bc/static/js/main.16b6a971.js.map",
+    "main.6b0fefea.js.map": "/streetwear-bc/static/js/main.6b0fefea.js.map",
     "787.373f3d70.chunk.js.map": "/streetwear-bc/static/js/787.373f3d70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5f5db99.css",
-    "static/js/main.16b6a971.js"
+    "static/js/main.6b0fefea.js"
   ]
 }
