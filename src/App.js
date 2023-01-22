@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <UserAuthContextProvider>
-        <BrowserRouter basename="/streetwear-bc">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route exact path="/streetwear-bc" element={<LoginPage />} >
               <Route index element={<LoginForm />} />
